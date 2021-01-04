@@ -5,9 +5,19 @@ body{
 
 h1{
     font-size: 50px;
+    margin: 0px;
 }
 
-.name-highlight{
+h2{
+    font-size: 40px;
+    margin: 0px;
+}
+
+p{
+    color: dimgray;
+    padding: 5px;
+}
+.orange-highlight{
     color: orange;
 }
 
@@ -20,6 +30,7 @@ h1{
 
 .half-width img{
     width: 100%;
+    margin-top: 10px;
 }
 
 .top-banner{
@@ -29,4 +40,57 @@ h1{
 
 section{
     height: 500px;
+    padding-bottom: 100px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#exp{
+    margin-left: 15px;
+}
+
+footer p{
+    text-align: center;
 }
